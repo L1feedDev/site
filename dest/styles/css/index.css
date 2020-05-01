@@ -388,12 +388,12 @@ a:focus {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 230px);
+  grid-template-columns: repeat(4, 240px);
   justify-content: space-between;
   align-items: flex-start;
   font-family: 'OpenSans'; }
   .grid__item {
-    max-width: 230px; }
+    max-width: 280px; }
   .grid__heading {
     display: flex;
     flex-direction: column;
@@ -420,7 +420,7 @@ a:focus {
     align-items: center;
     position: relative;
     background: #ffffff;
-    font-size: 13px; }
+    font-size: 15px; }
     .grid__body:before {
       content: '';
       position: absolute;
