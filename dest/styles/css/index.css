@@ -69,7 +69,11 @@ a:focus {
     font-weight: bold;
     height: 20px;
     font-size: 18px;
-    line-height: 20px; }
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none; }
+    .header__phone:hover {
+      text-decoration: underline; }
     .header__phone img {
       height: 20px;
       margin-top: -2px; }
@@ -295,7 +299,10 @@ a:focus {
     align-items: center;
     margin: 0px auto;
     text-align: center;
-    margin-top: 13px; }
+    margin-top: 13px;
+    text-decoration: none; }
+    .smallBanner__phone:hover {
+      text-decoration: underline; }
     .smallBanner__phone span {
       margin-right: 10px; }
 
