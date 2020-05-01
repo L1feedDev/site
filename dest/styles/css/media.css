@@ -1,0 +1,88 @@
+@media screen and (max-width: 930px) {
+  .header__nav {
+    display: none; }
+  .header__nav--mobile {
+    display: flex !important; }
+  .mainBanner__wrap {
+    flex-direction: column-reverse;
+    align-items: center; }
+  .mainBanner__text {
+    margin-top: 50px;
+    min-width: 0; } }
+
+@media screen and (max-width: 700px) {
+  .about__wrap {
+    flex-direction: column; }
+  .about__item {
+    margin: 10px 0; } }
+
+@media screen and (max-width: 1050px) {
+  .price__inner {
+    flex-direction: column;
+    align-items: center; }
+  .price__list--blue:before,
+  .price__list--blue:after {
+    display: none; }
+  .price__list--blue,
+  .price__list--red,
+  .price__list--green {
+    margin: 20px 0; }
+  .price__list--red {
+    max-width: 400px; }
+    .price__list--red .list__body {
+      padding-left: 40px; }
+    .price__list--red .list__heading {
+      padding-left: 40px; }
+  .help__img {
+    margin: 0;
+    margin-bottom: 50px;
+    display: none; }
+  .photoList__inner {
+    flex-direction: column-reverse;
+    align-items: center; }
+  .photoList__title {
+    margin-bottom: 50px; }
+  .service__img {
+    margin-bottom: 50px; }
+  .grid {
+    grid-template-columns: repeat(2, 230px);
+    justify-content: center;
+    grid-gap: 50px; }
+    .grid__item {
+      margin-bottom: 50px; } }
+
+@media screen and (max-width: 550px) {
+  .grid {
+    grid-template-columns: repeat(1, 230px); }
+  .wrap {
+    padding: 50px 20px; }
+  .header__wrap {
+    padding: 20px; }
+  .footer__wrap {
+    padding: 20px; }
+  .mainBanner__wrap {
+    padding-top: 130px; } }
+
+@media screen and (max-width: 480px) {
+  .mainBanner__listItem {
+    font-size: 13px; }
+  .title {
+    font-size: 16px; }
+  .list__body {
+    padding-left: 10px !important; }
+  .list__item svg {
+    margin-right: 10px; }
+  .list__heading {
+    padding-left: 10px !important; }
+  .photoList__item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px; }
+    .photoList__itemImg {
+      margin: 0;
+      margin-bottom: 20px; }
+  .service__img {
+    display: none; } }
+
+/*# sourceMappingURL=media.css.map */
